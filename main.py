@@ -5,7 +5,7 @@ from fish_track import FishTrack
 from cam_module import CamHandler
 from mqtt_pub import MQTTPublisher
 
-IP = "210.119.12.66"
+IP = "아이피주소"
 MQTT_PORT = 1883
 TOPIC = "test/topic"
 MODEL = "./best.pt"
