@@ -108,3 +108,14 @@ AI Treacker with Raspberry Pi
 ```shell
     ./mediamtx
 ```
+
+9. Window PowerShell에서 확인방법
+    - VLC 설치
+        ```shell
+            winget install --id=VideoLAN.VLC -e
+        ```
+
+    - 서버 실행된 상태에서 아래 명령어 입력
+        ```shell
+            "C:\Program Files\VideoLAN\VLC\vlc.exe" "rtsp://<아이피주소>:8554/live" --rtsp-tcp --network-caching=100
+        ```
